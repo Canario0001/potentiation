@@ -5,12 +5,12 @@ def result(num, vezes):
         print('{} ^ {} = {}'.format(num,vezes,pow(num, vezes)))
 
 def main():
-    print('Olá! Sou um programa para calcular a tabela de potenciação de qualquer número inteiro que você inserir.\nPs: Não use vírgulas comigo! Ao invés disso, use pontos!')
+    print('Olá! Sou um programa para calcular a tabela de potenciação de qualquer número inteiro que você inserir.')
     num = int(input('Digite o número de sua escolha: '))
-    print('-'*15)
-    for i in range(21):
+    print('-'*20)
+    for i in range(-5, 21):
         result(num, i)
-    print('-'*15)
+    print('-'*20)
 
 if __name__ == '__main__':
     main()
