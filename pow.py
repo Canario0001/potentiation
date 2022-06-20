@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def result(num, vezes):
     if vezes < 10:
         print('{} ^ {:2} = {}'.format(num,vezes,pow(num, vezes)))
